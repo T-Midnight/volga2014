@@ -1,0 +1,31 @@
+.navbar {
+  margin-bottom: 70px;
+}
+.navbar-inverse {
+  background-color: #4c13b7;
+}
+.navbar.navbar-inverse{
+  a:hover {
+      color: #b78146;
+  }
+    h1 {
+      text-align: center;
+
+      color: #edc989;
+    }
+}
+.navbar-header {
+  width: 100%;
+}
+
+.nav.nav-pills{
+ a {
+  background-color: #655584;
+  color: #edc989;
+ }
+
+ a:hover {
+  background-color: #655584;
+  color: #edc989;
+ }
+}
