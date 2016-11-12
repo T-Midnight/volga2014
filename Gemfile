@@ -7,6 +7,7 @@ gem 'twitter-bootstrap-rails'
 group :development, :test do
   gem 'guard-rspec'
   gem 'rspec-rails', '3.5.0'
+  gem 'awesome_print'
 end
 
 group :test do

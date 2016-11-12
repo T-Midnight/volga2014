@@ -1,0 +1,22 @@
+<%= form_for(@answer, url: new_question_answer_path(@question.id)) do |f| %>
+
+  <div class="field">
+    <%= f.label :content %><br>
+    <%= f.text_field :content %>
+  </div>
+  <div class="field">
+    <%= f.label :question_id %><br>
+    <%= f.text_field :question_id %>
+  </div>
+  <div class="field">
+    <%= f.label :autor_name %><br>
+    <%= f.text_field :autor_name %>
+  </div>
+  <div class="field">
+    <%= f.label :date_creation %><br>
+    <%= f.date_select :date_creation %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
