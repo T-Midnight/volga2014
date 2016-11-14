@@ -20,7 +20,7 @@ class AnswersController < ApplicationController
 
     respond_to do |format|
       if @answer.save
-        format.html {redirect_to @answer, notice: 'Answer was created!'}
+        format.html {redirect_to @answer.question, notice: 'Answer was created!'}
         format.json {render action: 'show', status: :created, location: @answer }
       else
         format.html {render action: 'new'}
@@ -47,7 +47,8 @@ class AnswersController < ApplicationController
   end
 
   private
-    def answers_params
-      params.require(:answers).permit(:content, :question_id, :autor_name, :date_creation)
-    end
+
+  def answers_params
+    params.require(:answer).permit(:content, :question_id, :autor_name)
+  end
 end

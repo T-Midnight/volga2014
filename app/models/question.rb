@@ -3,5 +3,5 @@ class Question < ActiveRecord::Base
   validates :message,  presence: true
   validates :autor_name,   presence: true, length: {maximum: 50}
 
-  has_many :answers
+  has_many :answers, dependent: :destroy
 end

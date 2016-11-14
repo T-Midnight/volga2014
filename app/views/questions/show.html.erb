@@ -20,6 +20,15 @@
   <%= @question.date_creation %>
 </p>
 
+<div class="span8">
+  <% if @question.answers.any? %>
+    <h3>All Answers (<%= @question.answers.count %>)</h3>
+    <ol class="answers">
+      <%= render @answers %>
+    </ol>
+  <% end %>
+</div>
+
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <%= link_to 'Destroy', @question, method: :delete, data: { confirm: 'Are you sure?' } %> |
 <%= link_to 'Back', questions_path %>

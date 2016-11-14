@@ -1,8 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.7'
+gem 'rspec-its'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'twitter-bootstrap-rails'
+gem 'faker', '1.1.2'
+
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
   gem 'guard-rspec'
