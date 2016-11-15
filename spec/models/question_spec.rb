@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe Question, type: :model do
   before {@question = Question.new(title: "Example title", message: "Message", autor_name: "ExAuthor", date_creation: "12.09.2016")}
   subject {@question}
@@ -43,10 +41,10 @@ RSpec.describe Question, type: :model do
 
     before { @question.save }
     let!(:older_answer) do
-      FactoryGirl.create(:answer, question: @question, created_at: 1.day.ago)
+      create :answer, question: @question, created_at: 1.day.ago
     end
     let!(:newer_answer) do
-      FactoryGirl.create(:answer, question: @question, created_at: 1.hour.ago)
+      create :answer, question: @question, created_at: 1.hour.ago
     end
 
     it "should have the right answer in the right order" do

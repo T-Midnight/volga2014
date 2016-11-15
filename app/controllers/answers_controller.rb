@@ -18,27 +18,19 @@ class AnswersController < ApplicationController
   def create
     @answer = Answer.new(answers_params)
 
-    respond_to do |format|
-      if @answer.save
-        format.html {redirect_to @answer.question, notice: 'Answer was created!'}
-        format.json {render action: 'show', status: :created, location: @answer }
-      else
-        format.html {render action: 'new'}
-        format.json {render json: @answer.errors, status: :unprocessable_entity}
-      end
+    if @answer.save
+      redirect_to @answer.question
+    else
+      render action: 'new'
     end
   end
 
   def update
 
-    respond_to do |format|
-      if @question.update(question_params)
-        format.html { redirect_to @question, notice: 'Question was successfully updated'}
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @question.errors, status: :unprocessable_entity }
-      end
+    if @question.update(question_params)
+      redirect_to @question, notice: 'Question was successfully updated'
+    else
+      render action: 'edit'
     end
   end
 

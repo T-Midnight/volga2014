@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.7'
-gem 'rspec-its'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'twitter-bootstrap-rails'
 gem 'faker', '1.1.2'

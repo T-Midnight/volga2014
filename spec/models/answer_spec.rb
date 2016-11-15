@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe Answer, type: :model do
   before { @answer = Answer.new(content: "answer for the question", question_id: "0", autor_name: "ExAutor", date_creation: "12.09.2016")}
   subject {@answer}
