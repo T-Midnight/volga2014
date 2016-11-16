@@ -48,7 +48,7 @@ RSpec.describe Question, type: :model do
     end
 
     it "should have the right answer in the right order" do
-      expect(@question.answers.to_a).to eq [newer_answer, older_answer]
+      expect(@question.answers.order('created_at DESC').to_a).to eq [newer_answer, older_answer]
     end
 
     it "should destroy associated answers" do
