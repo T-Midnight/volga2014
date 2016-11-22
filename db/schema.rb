@@ -19,20 +19,16 @@ ActiveRecord::Schema.define(version: 20161122122818) do
   create_table "answers", force: :cascade do |t|
     t.string   "content"
     t.integer  "question_id"
-    t.date     "date_creation"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.integer  "user_id"
   end
-
-  add_index "answers", ["question_id", "date_creation"], name: "index_answers_on_question_id_and_date_creation", using: :btree
 
   create_table "questions", force: :cascade do |t|
     t.string   "title"
     t.string   "message"
-    t.date     "date_creation"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.integer  "user_id"
   end
 
