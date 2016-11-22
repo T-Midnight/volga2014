@@ -254,6 +254,7 @@ DEPENDENCIES
   launchy
   libnotify (= 0.8.0)
   pg (= 0.15.1)
+  pry
   rails (= 4.2.7)
   rails_12factor (= 0.0.2)
   rspec-rails (= 3.5.0)

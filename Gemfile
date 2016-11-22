@@ -12,6 +12,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'rspec-rails', '3.5.0'
   gem 'awesome_print'
+  gem 'pry'
 end
 
 group :test do

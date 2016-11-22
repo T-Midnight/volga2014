@@ -4,7 +4,6 @@ class CreateAnswers < ActiveRecord::Migration
       t.string :content
       t.integer :question_id
       t.string :autor_name
-      t.date :date_creation
 
       t.timestamps null: false
     end

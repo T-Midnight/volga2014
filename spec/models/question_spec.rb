@@ -1,10 +1,10 @@
 RSpec.describe Question, type: :model do
-  before {@question = Question.new(title: "Example title", message: "Message", autor_name: "ExAuthor", date_creation: "12.09.2016")}
+  before {@question = Question.new(title: "Example title", message: "Message")}
   subject {@question}
   it {should respond_to(:title)}
   it {should respond_to(:message)}
-  it {should respond_to(:autor_name)}
   it {should respond_to(:answers)}
+  it {should respond_to(:user)}
 
   it {should be_valid}
 
@@ -17,16 +17,6 @@ RSpec.describe Question, type: :model do
   describe "when message is not present" do
     before {@question.message = " "}
     it { should_not be_valid}
-  end
-
-  describe "when autor_name is not present" do
-    before {@question.autor_name = " "}
-    it { should_not be_valid}
-  end
-
-  describe "when autor_name is too long" do
-    before { @question.autor_name = "a" * 51 }
-    it { should_not be_valid }
   end
 
   describe "when question with this title is already exist" do
@@ -52,12 +42,10 @@ RSpec.describe Question, type: :model do
     end
 
     it "should destroy associated answers" do
-      answers = @question.answers.to_a
+      answers = @question.answers
       @question.destroy
-      expect(answers).not_to be_empty
-      answers.each do |answer|
-        expect(Answer.where(id: answer.id)).to be_empty
-      end
+      answers.reload
+      expect(answers).to be_empty
     end
   end
 end

@@ -3,8 +3,6 @@ class CreateQuestions < ActiveRecord::Migration
     create_table :questions do |t|
       t.string :title
       t.string :message
-      t.string :autor_name
-      t.date :date_creation
 
       t.timestamps null: false
     end

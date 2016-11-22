@@ -11,13 +11,8 @@
 </p>
 
 <p>
-  <strong>Autor name:</strong>
-  <%= @question.autor_name %>
-</p>
-
-<p>
   <strong>Date creation:</strong>
-  <%= @question.date_creation %>
+  <%= time_ago_in_words(@question.date_creation) %>
 </p>
 
 <% @answers.each do |answer| %>
