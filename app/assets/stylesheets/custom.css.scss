@@ -50,3 +50,28 @@ aside {
     margin-bottom: 5px;
   }
 }
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid grayMediumLight;
+  color: grayLight;
+  a {
+    color: gray;
+    &:hover {
+      color: #655584;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}

@@ -20,6 +20,11 @@ RSpec.describe User, type: :model do
     it { should_not be_valid }
   end
 
+  describe "when email is not present" do
+    before { @user.email = " " }
+    it { should_not be_valid }
+  end
+
   describe "answer associations" do
     before {@user.save }
     it "should destroy associates answers" do
