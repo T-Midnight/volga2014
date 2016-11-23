@@ -6,14 +6,19 @@ namespace :db do
     Answer.delete_all
 
     User.create(name: "name",
-               email: "email")
+               email: "email",
+               password: "foobar",
+               password_confirmation: "foobar")
 
     6.times do |n|
       name = Faker::Name.name
       email = "example-#{n+1}@gmail.com"
+      password = "password-#{n}"
+      password_confirmation = "password-#{n}"
       User.create!(name: name,
-                  email: email)
-
+                  email: email,
+                  password: password,
+                  password_confirmation: password_confirmation)
     end
     users = User.all
     3.times do |n|

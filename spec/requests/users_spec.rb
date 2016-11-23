@@ -14,4 +14,5 @@ RSpec.describe "Users", type: :request do
       expect(page).to have_content('All Users')
     end
   end
+
 end
