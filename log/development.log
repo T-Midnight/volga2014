@@ -24512,3 +24512,3022 @@ Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 1
 
 
 Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-23 10:56:48 +0400
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-11-24 17:16:58 +0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (40.3ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered questions/index.html.erb within layouts/application (56.9ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 525ms (Views: 465.6ms | ActiveRecord: 40.9ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:17:00 +0400
+  [1m[36m (5024.1ms)[0m  [1mDROP DATABASE IF EXISTS "volga2014_development"[0m
+  [1m[35m (388.3ms)[0m  DROP DATABASE IF EXISTS "volga2014_test"
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE "volga2014_development" ENCODING = 'utf8'[0m
+  [1m[35m (888.9ms)[0m  CREATE DATABASE "volga2014_test" ENCODING = 'utf8'
+  [1m[36mSQL (61.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (113.1ms)[0m  DROP TABLE "answers" CASCADE
+  [1m[36m (167.1ms)[0m  [1mCREATE TABLE "answers" ("id" serial primary key, "content" character varying, "question_id" integer, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) [0m
+  [1m[35m (55.9ms)[0m  CREATE  INDEX  "index_answers_on_question_id_and_date_creation" ON "answers" USING btree ("question_id", "date_creation")
+  [1m[36m (9.4ms)[0m  [1mDROP TABLE "questions" CASCADE[0m
+  [1m[35m (80.3ms)[0m  CREATE TABLE "questions" ("id" serial primary key, "title" character varying, "message" character varying, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) 
+  [1m[36m (57.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_questions_on_title" ON "questions" USING btree ("title")[0m
+  [1m[35m (7.9ms)[0m  DROP TABLE "users" CASCADE
+  [1m[36m (83.1ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "password_digest" character varying) [0m
+  [1m[35m (48.7ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (1.4ms)[0m  CREATE EXTENSION IF NOT EXISTS "plpgsql"
+  [1m[36m (90.0ms)[0m  [1mCREATE TABLE "answers" ("id" serial primary key, "content" character varying, "question_id" integer, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) [0m
+  [1m[35m (48.2ms)[0m  CREATE  INDEX  "index_answers_on_question_id_and_date_creation" ON "answers" USING btree ("question_id", "date_creation")
+  [1m[36m (116.2ms)[0m  [1mCREATE TABLE "questions" ("id" serial primary key, "title" character varying, "message" character varying, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) [0m
+  [1m[35m (56.7ms)[0m  CREATE UNIQUE INDEX  "index_questions_on_title" ON "questions" USING btree ("title")
+  [1m[36m (107.7ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "password_digest" character varying) [0m
+  [1m[35m (56.7ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (49.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (39.9ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (7.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161123052548')
+  [1m[36m (8.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161117111413')[0m
+  [1m[35m (8.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161108062726')
+  [1m[36m (8.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161110140853')[0m
+  [1m[35m (7.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161116125919')
+  [1m[36m (8.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161117111238')[0m
+  [1m[35m (8.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161102115343')
+  [1m[36m (8.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161123051545')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (223.0ms)[0m  [1mDROP DATABASE IF EXISTS "volga2014_development"[0m
+  [1m[35m (219.2ms)[0m  DROP DATABASE IF EXISTS "volga2014_test"
+  [1m[36m (534.9ms)[0m  [1mCREATE DATABASE "volga2014_development" ENCODING = 'utf8'[0m
+  [1m[35m (564.3ms)[0m  CREATE DATABASE "volga2014_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.1ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (101.1ms)[0m  CREATE TABLE "answers" ("id" serial primary key, "content" character varying, "question_id" integer, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) 
+  [1m[36m (55.2ms)[0m  [1mCREATE  INDEX  "index_answers_on_question_id_and_date_creation" ON "answers" USING btree ("question_id", "date_creation")[0m
+  [1m[35m (91.2ms)[0m  CREATE TABLE "questions" ("id" serial primary key, "title" character varying, "message" character varying, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) 
+  [1m[36m (57.1ms)[0m  [1mCREATE UNIQUE INDEX  "index_questions_on_title" ON "questions" USING btree ("title")[0m
+  [1m[35m (82.7ms)[0m  CREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "password_digest" character varying) 
+  [1m[36m (40.1ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (55.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (48.7ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161123052548')[0m
+  [1m[35m (8.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161117111413')
+  [1m[36m (8.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161108062726')[0m
+  [1m[35m (8.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161110140853')
+  [1m[36m (7.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161116125919')[0m
+  [1m[35m (8.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161117111238')
+  [1m[36m (8.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161102115343')[0m
+  [1m[35m (8.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161123051545')
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (133.7ms)[0m  CREATE TABLE "answers" ("id" serial primary key, "content" character varying, "question_id" integer, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) 
+  [1m[36m (55.9ms)[0m  [1mCREATE  INDEX  "index_answers_on_question_id_and_date_creation" ON "answers" USING btree ("question_id", "date_creation")[0m
+  [1m[35m (82.9ms)[0m  CREATE TABLE "questions" ("id" serial primary key, "title" character varying, "message" character varying, "date_creation" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer) 
+  [1m[36m (48.7ms)[0m  [1mCREATE UNIQUE INDEX  "index_questions_on_title" ON "questions" USING btree ("title")[0m
+  [1m[35m (107.6ms)[0m  CREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "password_digest" character varying) 
+  [1m[36m (56.8ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (65.9ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (57.1ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161123052548')[0m
+  [1m[35m (8.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161117111413')
+  [1m[36m (8.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161108062726')[0m
+  [1m[35m (8.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161110140853')
+  [1m[36m (7.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161116125919')[0m
+  [1m[35m (8.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161117111238')
+  [1m[36m (8.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161102115343')[0m
+  [1m[35m (8.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161123051545')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-11-24 17:37:39 +0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (1.5ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered questions/index.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 122ms (Views: 111.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:40 +0400
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 27.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:42 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:43 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (112.1ms)
+  Rendered users/new.html.erb within layouts/application (112.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 123ms (Views: 119.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:37:45 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:38:43 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:39:23 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:39:24 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.4ms)
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-97fa51eda8b9f0a57d2c192eead67ec0.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/application-c3d18cd3897448e46fcaf0348b53aa9c.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:28 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:29 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.8ms)
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-43f5f1ba2ffd4e47c7bc4e05e7834a35.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/application-9246f21df27af45a716b68b1e12d2ee2.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:42:59 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:00 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-3ee9c728b22cc1983f952c72913ba357.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/application-c46911c5e18f083609b04026e7d42f5a.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:43:38 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-978677a0f7ec74739286607049b30c8c.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/application-c732730c6f1988c460b9d613a5285882.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:44:26 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.5ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-b1dab568448470e3a53eb386b6baa2c0.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/application-872c9c57c86d44c91c59572ad5a48de8.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:05 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.3ms)
+  Rendered users/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:13 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.8ms)
+  Rendered users/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-806c0bc6122a23010de4ad9e99199434.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/application-1fff3bbaa485bb636490422fab3ca794.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:27 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/new.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-fc648b2dbabd4c8715e2afe7635a487e.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/application-5a8d0ce8134a6b0ec54489bbd797932e.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:45:53 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:46:03 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-9470d2ab143c0b7e89ea3f90966bcc7e.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/application-f3c6d9dc9cb1a731bd51098afeff8440.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:04 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:23 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-63bcda54c3ed6a3bb3ba802ae087a69c.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/application-a4c166bb222ad7f78d9bd8440caa9881.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:46:43 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:46:53 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (5.2ms)
+  Rendered users/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-46b604d88213ba27a5ac3e1a43602d2e.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/application-40d3e6937c346bfad8440c72655dfaa3.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:04 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-498305c5714e13625d98d3fde49cf5c8.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/application-ae09494ecac00c23550dca67a1e27a38.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:24 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:48:41 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  margin-left:00px": expected ";", was ": 50px;"
+  (in /home/user/rails_projects/volga2014/app/assets/stylesheets/custom.css.scss:110)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= content_for?(:title) ? yield(:title) : "Volga2014" %></title>
+    5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:     <%= javascript_include_tag 'application' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/assets/stylesheets/custom.css.scss:110
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___869763861817815089_42120740'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (5.1ms)
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-fafde76f39e20f068c8089b5428a4a94.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/application-42cd49d91ee0fdba051437257bc1f607.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:48:53 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.4ms)
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-7e0d7106ba12e934c8b6138c995c0dcb.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/application-5c5c4cc006a6042f88cd94eef92bbd42.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:01 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-637824140c62e0846005044e00bef293.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/application-74dd822323c4be9ca9173b50714a0209.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:49:12 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered users/_form.html.erb (2.4ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:53 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:54 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:54 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:54 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:54 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:54 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:57:54 +0400
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BhtPjZM+ZTDY1GJtjT4c1xVWMRBzAHFWAY35K72XPMucBM7oCe1vYAGNgkIsvZGoZhVQPgI6uz9LEz2sGzdvug==", "user"=>{"name"=>"fghgh", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered shared/_error_messages.html.erb (1.2ms)
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 10.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 17:58:02 +0400
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BhtPjZM+ZTDY1GJtjT4c1xVWMRBzAHFWAY35K72XPMucBM7oCe1vYAGNgkIsvZGoZhVQPgI6uz9LEz2sGzdvug==", "user"=>{"name"=>"fghgh", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/_form.html.erb (7.8ms)
+  Rendered users/new.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 130ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 18:02:57 +0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 18:03:37 +0400
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BhtPjZM+ZTDY1GJtjT4c1xVWMRBzAHFWAY35K72XPMucBM7oCe1vYAGNgkIsvZGoZhVQPgI6uz9LEz2sGzdvug==", "user"=>{"name"=>"fghgh", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:26 +0400
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BhtPjZM+ZTDY1GJtjT4c1xVWMRBzAHFWAY35K72XPMucBM7oCe1vYAGNgkIsvZGoZhVQPgI6uz9LEz2sGzdvug==", "user"=>{"name"=>"fghgh", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/_form.html.erb (2.1ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 15.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 18:06:32 +0400
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BhtPjZM+ZTDY1GJtjT4c1xVWMRBzAHFWAY35K72XPMucBM7oCe1vYAGNgkIsvZGoZhVQPgI6uz9LEz2sGzdvug==", "user"=>{"name"=>"fghgh", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/_form.html.erb (2.3ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 83ms (Views: 15.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/answers-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-e1a731fb91b4fe526785429f8403e747.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-7988f1ebdcf316f6c524c406f9ca3c66.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/container-431ede4875744c30aad310c7b09ed828.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/bootstrap_and_overrides-464691ce6f414dd42aec9e9e1f4389b9.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/header-d00d53710620f192d39b29e650afad1c.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/questions-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/scaffolds-252bc6c029a9f1f514171de3a1c70691.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/users-57d8daf78b0f360ef3aaff214a69d315.css?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/jquery_ujs-bd4abb0b90d93f2b9d52a1692775bea4.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/jquery-ad5fc228c3d6e518a143c4c241e027ab.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition-de36321f9946dc7f687443b6c5db312d.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert-434718b6dc8f89d88eda3cf76b221ea5.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal-7386c7f042975c6bf26162fb0a7e6cae.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-737e8d32405dcac64c919e4453df911d.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-1e64111ac09aad14b8bf132f67aa4069.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab-cbe1a8b9356cbf93be73a7fb19892dbf.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-32f42c5545ed63c522397ec40ba933a6.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover-a5ea512ab483d9cce6e514cf0b9fcd72.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button-5e5b51602dcf42fb143735175f4b5efe.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse-d25b871435b9329c66e094f153943267.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel-288d0b56fa3c3b3aa5ad933104cd73ea.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix-d64dbd3e8bf5cd1107fd9fe24a275fa9.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/twitter/bootstrap-e90b8dfa95a5a6f9b3a73e169476a71a.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/answers-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/bootstrap-3358a0606fe41f56075df870c5014377.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/questions-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/users-690ef516044a431f10ac56af844669d7.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
+
+
+Started GET "/assets/application-627ed5fd7191b697e64f6a46d18f276d.js?body=1" for 127.0.0.1 at 2016-11-24 18:07:41 +0400
