@@ -15,6 +15,11 @@
   <%= @question.created_at %>
 </p>
 
+<p>
+  <strong>Autor name:</strong>
+  <%= @question.user.name %>
+</p>
+
 <div class="span8">
   <% if @question.answers.any? %>
     <h3>All Answers (<%= @question.answers.count %>)</h3>

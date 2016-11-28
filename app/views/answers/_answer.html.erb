@@ -1,7 +1,7 @@
 <li>
   <span class="content"><%= answer.content %></span>
   <span class="timestamp">
-    Posted <%= time_ago_in_words(answer.created_at) %> ago.
+    Posted by <%= answer.user.name %> <%= time_ago_in_words(answer.created_at) %> ago.
   </span>
 </li>
 

@@ -8,21 +8,41 @@
         </a>
       </li>
       <li role="presentation">
-        <a href= "<%= users_path %>">
-          Users
-        </a>
-      </li>
-      <li role="presentation">
         <a href="<%= signup_path %>">
           Sign up
         </a>
       </li>
-      <li role="presentation">
-        <a href= "<%= signin_path %>" >
-          Sign in
-        </a>
-      </li>
+      <ul class= "nav navbar-nav pull-right" >
+        <li role = "presentation">
+          <a href="#">
+            MyLink
+          </a>
+        </li>
+        <% if signed_in? %>
+          <li><%= link_to "Users", users_path %></li>
+          <li id="fat-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              Account
+              <span class="caret">
+              </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <%= link_to "Profile", current_user %>
+              </li>
+              <li>
+                <%= link_to "Settings", '#' %>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <%= link_to "Sign out", signout_path, method: "delete" %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to "Sign in", signin_path %></li>
+        <% end %>
+      </ul>
     </ul>
   </div>
 </header>
-
