@@ -16,6 +16,6 @@ class SessionsController < ApplicationController
 
   def destroy
     sign_out
-    redirect_to queestion_path
+    redirect_to questions_path
   end
 end

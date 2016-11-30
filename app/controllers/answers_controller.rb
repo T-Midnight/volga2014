@@ -38,6 +38,12 @@ class AnswersController < ApplicationController
     @answer.destroy
   end
 
+  def change_helpfulness
+    @answer = Answer.find(params[:answer_id])
+    @answer.helpfulness += 1
+    @answer.save
+    redirect_to :back
+  end
   private
 
   def answers_params

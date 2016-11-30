@@ -119,6 +119,11 @@ RSpec.describe User, type: :model do
     end
   end
 
+  describe "remember token" do
+    before { @user.save }
+    it { expect(@user.remember_token).not_to be_blank }
+  end
+
   describe "answer associations" do
     before {@user.save }
     it "should destroy associates answers" do
@@ -139,9 +144,5 @@ RSpec.describe User, type: :model do
     end
   end
 
-  describe "remember token" do
-    before { @user.save }
-    it { expect(@user.remember_token).not_to be_blank }
-  end
 end
 

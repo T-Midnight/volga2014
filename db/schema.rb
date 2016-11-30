@@ -20,10 +20,10 @@ ActiveRecord::Schema.define(version: 20161129071132) do
     t.string   "content"
     t.integer  "question_id"
     t.date     "date_creation"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.integer  "user_id"
-    t.integer  "helpfulness"
+    t.integer  "helpfulness",   default: 0
   end
 
   add_index "answers", ["question_id", "date_creation"], name: "index_answers_on_question_id_and_date_creation", using: :btree
