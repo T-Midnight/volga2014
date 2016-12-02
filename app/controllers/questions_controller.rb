@@ -12,6 +12,7 @@ class QuestionsController < ApplicationController
   def show
     @question = Question.find(params[:id])
     @answers = @question.answers.order created_at: :desc
+    @user = @question.user
   end
 
   # GET /questions/new
@@ -72,7 +73,11 @@ class QuestionsController < ApplicationController
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.
+  #
   def question_params
-    params.require(:question).permit(:title, :message, :autor_name, :date_creation)
+    params.require(:question).permit(:title, :message, :user_id, :vote)
+  end
+  def user_params
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 end

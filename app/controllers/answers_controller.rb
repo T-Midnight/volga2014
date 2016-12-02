@@ -10,6 +10,7 @@ class AnswersController < ApplicationController
   def new
     @question = Question.find(params[:question_id])
     @answer = @question.answers.build
+    @user = @answer.user
   end
 
   def edit
@@ -47,6 +48,6 @@ class AnswersController < ApplicationController
   private
 
   def answers_params
-    params.require(:answer).permit(:content, :question_id, :autor_name)
+    params.require(:answer).permit(:content, :question_id, :user_id)
   end
 end
