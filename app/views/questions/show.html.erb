@@ -1,24 +1,50 @@
-<p id="notice"><%= notice %></p>
+<div class="question">
+  <table>
+    <tbody>
+      <tr>
+        <td class="votecell">
+          <div class="vote">
+            <a>
+            <%= link_to  question_change_vote_up_path(question_id: @question), class: "vote-up", title: "This question shows research effort; it is usefual and clear", method: 'post' do %>
+              <%= image_tag "vote_up.png" %>
+            <% end %>
+          </a>
+          <span itemprop="upvoteCount" class="vote-count-post"><%= @question.vote %></span>
+          <a>
+            <%= link_to question_change_vote_down_path(question_id: @question), class: "vote_down", title: "This question does not show any research effort; it is unclear or not useful", method: 'post' do %>
+              <%= image_tag "vote_down.png" %>
+            <% end %>
+          </a>
 
-<p>
-  <strong>Title:</strong>
-  <%= @question.title %>
-</p>
+        </div>
+        </td>
+        <td class = "postcell">
+          <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Message:</strong>
-  <%= @question.message %>
-</p>
+          <p>
+            <strong>Title:</strong>
+            <%= @question.title %>
+          </p>
 
-<p>
-  <strong>Date creation:</strong>
-  <%= @question.created_at %>
-</p>
+          <p>
+            <strong>Message:</strong>
+            <%= @question.message %>
+          </p>
 
-<p>
-  <strong>Autor name:</strong>
-  <%= @question.user.name %>
-</p>
+          <p>
+            <strong>Date creation:</strong>
+            <%= @question.created_at %>
+          </p>
+
+          <p>
+            <strong>Autor name:</strong>
+            <%= @question.user.name %>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="span8">
   <% if @question.answers.any? %>

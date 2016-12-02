@@ -52,6 +52,19 @@ class QuestionsController < ApplicationController
     redirect_to questions_url
   end
 
+  def change_vote_up
+    @question = Question.find(params[:question_id])
+    @question.vote += 1;
+    @question.save
+    redirect_to :back
+  end
+
+  def change_vote_down
+    @question = Question.find(params[:question_id])
+    @question.vote -= 1;
+    @question.save
+    redirect_to :back
+  end
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_question
