@@ -1,7 +1,17 @@
 Rails.application.routes.draw do
+  resources :users
   resources :questions do
-    resources :answers
+    post '/change_vote_up', to: 'questions#change_vote_up'
+    post 'change_vote_down', to: 'questions#change_vote_down'
+    resources :answers do
+      post '/change_helpfulness', to: 'answers#change_helpfulness'
+    end
   end
+
+  resources :sessions, only: [:new, :create, :destroy]
+  get '/signup',  to: 'users#new'
+  get '/signin', to: 'sessions#new'
+  delete '/signout', to: 'sessions#destroy'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

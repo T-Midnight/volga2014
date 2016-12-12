@@ -1,6 +1,7 @@
 class Answer < ActiveRecord::Base
-  validates :content, :autor_name, presence: true
+  validates :content, presence: true,  length: { maximum: 1000 }
   validates :question_id, presence: true
   belongs_to :question
+  belongs_to :user
 end
 

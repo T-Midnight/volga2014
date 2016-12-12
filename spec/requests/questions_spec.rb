@@ -1,10 +1,12 @@
-require 'spec_helper'
+require 'rails_helper'
+
 RSpec.describe "Questions", type: :request do
-    before {visit questions_path}
-  describe "GET /questions" do
-    before {visit questions_path}
-    it "starts server" do
-      expect(response).to have_http_status(200)
+  describe "Question Page" do
+    it "should have the content 'All Questions'" do
+      visit '/questions'
+      expect(page).to have_content('All Questions')
     end
   end
 end
+
+

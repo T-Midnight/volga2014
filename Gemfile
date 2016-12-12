@@ -3,17 +3,21 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.7'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'twitter-bootstrap-rails'
+gem 'faker', '1.1.2'
+
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
   gem 'guard-rspec'
   gem 'rspec-rails', '3.5.0'
   gem 'awesome_print'
+  gem 'pry'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'launchy'
-
   gem 'capybara', '2.2.0'
   gem 'libnotify', '0.8.0'
   gem 'factory_girl_rails', '4.2.1'

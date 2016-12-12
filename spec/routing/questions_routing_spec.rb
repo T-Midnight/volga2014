@@ -1,4 +1,3 @@
-require "spec_helper"
 
 describe QuestionsController, type: :routing do
   describe "routing" do

@@ -10,6 +10,7 @@ class AnswersController < ApplicationController
   def new
     @question = Question.find(params[:question_id])
     @answer = @question.answers.build
+    @user = @answer.user
   end
 
   def edit
@@ -18,27 +19,19 @@ class AnswersController < ApplicationController
   def create
     @answer = Answer.new(answers_params)
 
-    respond_to do |format|
-      if @answer.save
-        format.html {redirect_to @answer, notice: 'Answer was created!'}
-        format.json {render action: 'show', status: :created, location: @answer }
-      else
-        format.html {render action: 'new'}
-        format.json {render json: @answer.errors, status: :unprocessable_entity}
-      end
+    if @answer.save
+      redirect_to @answer.question
+    else
+      render action: 'new'
     end
   end
 
   def update
 
-    respond_to do |format|
-      if @question.update(question_params)
-        format.html { redirect_to @question, notice: 'Question was successfully updated'}
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @question.errors, status: :unprocessable_entity }
-      end
+    if @question.update(question_params)
+      redirect_to @question, notice: 'Question was successfully updated'
+    else
+      render action: 'edit'
     end
   end
 
@@ -46,8 +39,15 @@ class AnswersController < ApplicationController
     @answer.destroy
   end
 
+  def change_helpfulness
+    @answer = Answer.find(params[:answer_id])
+    @answer.helpfulness += 1
+    @answer.save
+    redirect_to :back
+  end
   private
-    def answers_params
-      params.require(:answers).permit(:content, :question_id, :autor_name, :date_creation)
-    end
+
+  def answers_params
+    params.require(:answer).permit(:content, :question_id, :user_id)
+  end
 end

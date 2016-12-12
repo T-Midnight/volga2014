@@ -10,6 +10,9 @@ class QuestionsController < ApplicationController
   # GET /questions/1
   # GET /questions/1.json
   def show
+    @question = Question.find(params[:id])
+    @answers = @question.answers.order created_at: :desc
+    @user = @question.user
   end
 
   # GET /questions/new
@@ -26,28 +29,20 @@ class QuestionsController < ApplicationController
   def create
     @question = Question.new(question_params)
 
-    respond_to do |format|
-      if @question.save
-        format.html { redirect_to @question, notice: 'Question was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @question }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @question.errors, status: :unprocessable_entity }
-      end
+    if @question.save
+      redirect_to @question
+    else
+      render action: 'new'
     end
   end
 
   # PATCH/PUT /questions/1
   # PATCH/PUT /questions/1.json
   def update
-    respond_to do |format|
-      if @question.update(question_params)
-        format.html { redirect_to @question, notice: 'Question was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @question.errors, status: :unprocessable_entity }
-      end
+    if @question.update(question_params)
+      redirect_to @question
+    else
+      render action: 'edit'
     end
   end
 
@@ -55,20 +50,34 @@ class QuestionsController < ApplicationController
   # DELETE /questions/1.json
   def destroy
     @question.destroy
-    respond_to do |format|
-      format.html { redirect_to questions_url }
-      format.json { head :no_content }
-    end
+    redirect_to questions_url
   end
 
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_question
-      @question = Question.find(params[:id])
-    end
+  def change_vote_up
+    @question = Question.find(params[:question_id])
+    @question.vote += 1;
+    @question.save
+    redirect_to :back
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def question_params
-      params.require(:question).permit(:title, :message, :autor_name, :date_creation)
-    end
+  def change_vote_down
+    @question = Question.find(params[:question_id])
+    @question.vote -= 1;
+    @question.save
+    redirect_to :back
+  end
+  private
+  # Use callbacks to share common setup or constraints between actions.
+  def set_question
+    @question = Question.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  #
+  def question_params
+    params.require(:question).permit(:title, :message, :user_id, :vote)
+  end
+  def user_params
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
+  end
 end

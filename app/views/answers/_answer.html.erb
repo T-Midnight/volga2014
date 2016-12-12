@@ -1,0 +1,24 @@
+<div class="container">
+  <span class="container">
+    <li>
+      <span class="content">
+        <%= answer.content %>
+      </span>
+      <span class="timestamp">
+        Posted by <%= answer.user.name %> <%= time_ago_in_words(answer.created_at) %> ago.
+        <li>
+          Is this answer was helpful for you?
+        </li>
+        <div class="input-group">
+          <input type="text" name="quant[1]" class="form-control input-number" value="<%= answer.helpfulness %>" min="0" max="100">
+          <span class="input-group-btn">
+            <%= link_to question_answer_change_helpfulness_path(question_id: answer.question, answer_id: answer), class: "btn btn-default btn-number", method: 'post' do %>
+              <span class="glyphicon glyphicon-plus"></span>
+            <% end %>
+          </span>
+        </div>
+      </span>
+    </li>
+  </span>
+</div>
+

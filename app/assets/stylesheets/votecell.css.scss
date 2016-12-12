@@ -1,0 +1,70 @@
+.table {
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+  tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+
+    display: table-row-group;
+    vertical-align: middle;
+
+    tr {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      display: table-row;
+      vertical-align: inherit;
+
+    }
+  }
+}
+.votecell {
+  vertical-align: top;
+  padding-right: 15px;
+  td {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+}
+.votecell .vote {
+  margin-right: 22px;
+}
+.vote {
+  text-align: center;
+  width: 20px;
+}
+
+.vote_up {
+  float: none;
+  background-position: 0 -170px;
+  text-indent: -9999em;
+  font-size: 15px;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  background-size: initial;
+}
+.vote_down {
+  float: none;
+  background-position: 0 -170px;
+  text-indent: -9999em;
+  font-size: 15px;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  background-size: initial;
+}
+.vote-count-post {
+  margin-left: 17px;
+  font-size: 18px;
+}
