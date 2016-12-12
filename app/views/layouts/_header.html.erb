@@ -44,10 +44,10 @@
             <li><%= link_to "Sign in", signin_path %></li>
           <% end %>
           <div class="search-container">
-
-            <form id="search" action="/search" method="get" autocomplete="off">
-              <input name="q" type="text" placeholder="Search Question" value="" tabindex="1" autocomplete="off" maxlength="240">
-            </form>
+            <%=form_tag( '/results', method: :get, role: 'search', autocomplete: 'of') do %>
+              <%= text_field_tag 'query', params[:query], placeholder: 'Search Question' %>
+              <%= submit_tag "Search", name: nil %>
+            <% end %>
           </div>
         </ul>
       </div>

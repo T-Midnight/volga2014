@@ -130,6 +130,10 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.15.1)
+    pg_search (1.0.6)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
+      arel
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -254,6 +258,7 @@ DEPENDENCIES
   launchy
   libnotify (= 0.8.0)
   pg (= 0.15.1)
+  pg_search
   pry
   rails (= 4.2.7)
   rails_12factor (= 0.0.2)
