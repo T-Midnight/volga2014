@@ -19814,3 +19814,1081 @@ Started GET "/assets/vote_up-bbc41ff6d98bfba83945d75a608b7120.png" for 127.0.0.1
 
 
 Started GET "/assets/vote_down-0c8081cd4b89b6b3745be678fdee0604.png" for 127.0.0.1 at 2016-12-02 14:26:36 +0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddVisitsCounterToQuestions (20161213135904)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (527.8ms)[0m  [1mALTER TABLE "questions" ADD "visits_counter" integer DEFAULT 0[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20161213135904"]]
+  [1m[36m (16.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (12.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'answers'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'questions'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/goods/Printer" for 127.0.0.1 at 2016-12-14 12:58:15 +0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/goods/Printer"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/user/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/user/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/user/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-14 12:58:21 +0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.7/lib/rails/templates/rails/welcome/index.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-14 12:59:09 +0400
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: '/questions'` to `controller: '/questions'`. (called from block in <top (required)> at /home/user/rails_projects/volga2014/config/routes.rb:2)
+
+ArgumentError ('/questions' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.8ms)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: '/questions'` to `controller: '/questions'`. (called from block in <top (required)> at /home/user/rails_projects/volga2014/config/routes.rb:2)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-14 13:00:14 +0400
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'questions_path'` to `controller: 'questions_path'`. (called from block in <top (required)> at /home/user/rails_projects/volga2014/config/routes.rb:2)
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-14 13:01:33 +0400
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (31.5ms)[0m  SELECT "questions".* FROM "questions"
+  Rendered questions/index.html.erb within layouts/application (105.0ms)
+  [1m[36mUser Load (36.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (138.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 1231ms (Views: 1057.6ms | ActiveRecord: 135.4ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2016-12-14 13:01:37 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.3ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'International Identity Planner' AND "questions"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:37.363957"], ["id", 1]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36mAnswer Exists (34.3ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 1]]
+  [1m[36mAnswer Load (0.9ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered answers/_answer.html.erb (190.1ms)
+  Rendered questions/show.html.erb within layouts/application (246.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 369ms (Views: 223.8ms | ActiveRecord: 51.1ms)
+
+
+Started GET "/assets/vote_up-bbc41ff6d98bfba83945d75a608b7120.png" for 127.0.0.1 at 2016-12-14 13:01:37 +0400
+
+
+Started GET "/assets/vote_down-0c8081cd4b89b6b3745be678fdee0604.png" for 127.0.0.1 at 2016-12-14 13:01:37 +0400
+
+
+Started GET "/questions/4" for 127.0.0.1 at 2016-12-14 13:01:40 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "4"]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.3ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'District Web Supervisor' AND "questions"."id" != 4) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:40.660410"], ["id", 4]]
+  [1m[35m (15.5ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 4]]
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 4]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 4]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered answers/_answer.html.erb (2.9ms)
+  Rendered questions/show.html.erb within layouts/application (11.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 17.2ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/questions/11" for 127.0.0.1 at 2016-12-14 13:01:43 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.7ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Mobility Orchestrator' AND "questions"."id" != 11) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:43.532257"], ["id", 11]]
+  [1m[35m (17.4ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 11]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 11]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 11]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered answers/_answer.html.erb (3.0ms)
+  Rendered questions/show.html.erb within layouts/application (8.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 16.4ms | ActiveRecord: 20.7ms)
+
+
+Started GET "/questions/16" for 127.0.0.1 at 2016-12-14 13:01:49 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mQuestion Load (0.7ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "16"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.2ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'District Identity Specialist' AND "questions"."id" != 16) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:49.192613"], ["id", 16]]
+  [1m[35m (16.8ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 16]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 16]]
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 16]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered answers/_answer.html.erb (2.7ms)
+  Rendered questions/show.html.erb within layouts/application (10.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 16.7ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/questions/15" for 127.0.0.1 at 2016-12-14 13:01:52 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 15]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "15"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.5ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Principal Optimization Engineer' AND "questions"."id" != 15) LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:52.377037"], ["id", 15]]
+  [1m[35m (13.3ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 15]]
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 15]]
+  [1m[36mAnswer Load (0.3ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 15]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered answers/_answer.html.erb (5.9ms)
+  Rendered questions/show.html.erb within layouts/application (12.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 19.6ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/questions/9" for 127.0.0.1 at 2016-12-14 13:01:55 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mQuestion Load (1.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "9"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.3ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Configuration Administrator' AND "questions"."id" != 9) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:55.109535"], ["id", 9]]
+  [1m[35m (41.5ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 9]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 9]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 9]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered answers/_answer.html.erb (12.7ms)
+  Rendered questions/show.html.erb within layouts/application (16.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 76ms (Views: 23.4ms | ActiveRecord: 45.3ms)
+
+
+Started GET "/questions/5" for 127.0.0.1 at 2016-12-14 13:01:57 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "5"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.8ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Legacy Metrics Representative' AND "questions"."id" != 5) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 1], ["updated_at", "2016-12-14 09:01:57.383374"], ["id", 5]]
+  [1m[35m (16.0ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 5]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 5]]
+  [1m[36mAnswer Load (0.2ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 5]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered answers/_answer.html.erb (4.6ms)
+  Rendered questions/show.html.erb within layouts/application (11.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 18.2ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/questions/11" for 127.0.0.1 at 2016-12-14 13:02:01 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mQuestion Load (0.8ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.3ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Mobility Orchestrator' AND "questions"."id" != 11) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 2], ["updated_at", "2016-12-14 09:02:01.426815"], ["id", 11]]
+  [1m[35m (15.8ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 11]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 11]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 11]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered answers/_answer.html.erb (3.9ms)
+  Rendered questions/show.html.erb within layouts/application (8.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 20.7ms | ActiveRecord: 18.2ms)
+
+
+Started POST "/questions/11/change_vote_up" for 127.0.0.1 at 2016-12-14 13:02:10 +0400
+Processing by QuestionsController#change_vote_up as HTML
+  Parameters: {"authenticity_token"=>"vVzUWm4OQ/XvUfbDkqSV+bedbP8/bxFE3RJLv0K4tPUHGuNpynpRu+bUjCtz90OAx6N2D3hp2jWsabQppf5EeQ==", "question_id"=>"11"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.2ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Mobility Orchestrator' AND "questions"."id" != 11) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "questions" SET "vote" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["vote", 14], ["updated_at", "2016-12-14 09:02:10.941635"], ["id", 11]]
+  [1m[35m (9.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/questions/11
+Completed 302 Found in 13ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/questions/11" for 127.0.0.1 at 2016-12-14 13:02:10 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Mobility Orchestrator' AND "questions"."id" != 11) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 3], ["updated_at", "2016-12-14 09:02:10.964179"], ["id", 11]]
+  [1m[36m (3.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 11]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 11]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered answers/_answer.html.erb (2.7ms)
+  Rendered questions/show.html.erb within layouts/application (5.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 12.9ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-12-14 13:02:15 +0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.9ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (5.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/questions/11" for 127.0.0.1 at 2016-12-14 13:02:18 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Mobility Orchestrator' AND "questions"."id" != 11) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 4], ["updated_at", "2016-12-14 09:02:18.919296"], ["id", 11]]
+  [1m[36m (13.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 11]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 11]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered answers/_answer.html.erb (6.3ms)
+  Rendered questions/show.html.erb within layouts/application (10.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 18.3ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/questions/2" for 127.0.0.1 at 2016-12-14 13:02:24 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mQuestion Load (0.5ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Internal Infrastructure Director' AND "questions"."id" != 2) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:02:24.400973"], ["id", 2]]
+  [1m[36m (17.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered answers/_answer.html.erb (3.1ms)
+  Rendered questions/show.html.erb within layouts/application (8.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 18.8ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2016-12-14 13:02:28 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Senior Tactics Representative' AND "questions"."id" != 3) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:02:28.391791"], ["id", 3]]
+  [1m[36m (8.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.1ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered answers/_answer.html.erb (2.6ms)
+  Rendered questions/show.html.erb within layouts/application (5.5ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 16.8ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-12-14 13:06:01 +0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (6.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2016-12-14 13:06:05 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mQuestion Load (0.5ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Senior Tactics Representative' AND "questions"."id" != 3) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:06:05.769744"], ["id", 3]]
+  [1m[36m (14.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered answers/_answer.html.erb (3.6ms)
+  Rendered questions/show.html.erb within layouts/application (13.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 21.2ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/questions/6" for 127.0.0.1 at 2016-12-14 13:06:08 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "6"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Direct Brand Engineer' AND "questions"."id" != 6) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:06:08.041172"], ["id", 6]]
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 6]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 6]]
+  Rendered answers/_answer.html.erb (1.0ms)
+  Rendered questions/show.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 11.4ms)
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     5:         <%= answer.content %>
+     6:       </span>
+     7:       <span class="timestamp">
+     8:         Posted by <%= answer.user.name %> <%= time_ago_in_words(answer.created_at) %> ago.
+     9:         <li>
+    10:           Is this answer was helpful for you?
+    11:         </li>
+  app/views/answers/_answer.html.erb:8:in `_app_views_answers__answer_html_erb__607736215308670186_69878823751120'
+  app/views/questions/show.html.erb:53:in `_app_views_questions_show_html_erb__620450011060837455_29641560'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/questions/" for 127.0.0.1 at 2016-12-14 13:12:33 +0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (6.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 21.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/questions/13" for 127.0.0.1 at 2016-12-14 13:12:34 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "13"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Corporate Solutions Consultant' AND "questions"."id" != 13) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:12:34.531850"], ["id", 13]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.1ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 13]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 13]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 13]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (3.5ms)
+  Rendered questions/show.html.erb within layouts/application (14.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 22.3ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:12:37 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:12:37.436925"], ["id", 7]]
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (2.6ms)
+  Rendered questions/show.html.erb within layouts/application (5.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 16.5ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/questions/18" for 127.0.0.1 at 2016-12-14 13:12:40 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "18"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'District Assurance Analyst' AND "questions"."id" != 18) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:12:40.204339"], ["id", 18]]
+  [1m[36m (13.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 18]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 18]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered answers/_answer.html.erb (3.2ms)
+  Rendered questions/show.html.erb within layouts/application (7.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 17.3ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/questions/2" for 127.0.0.1 at 2016-12-14 13:12:41 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Internal Infrastructure Director' AND "questions"."id" != 2) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:12:41.905427"], ["id", 2]]
+  [1m[36m (4.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 2]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered answers/_answer.html.erb (3.1ms)
+  Rendered questions/show.html.erb within layouts/application (6.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 18.8ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/questions/6" for 127.0.0.1 at 2016-12-14 13:12:44 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "6"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Direct Brand Engineer' AND "questions"."id" != 6) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:12:44.288641"], ["id", 6]]
+  [1m[36m (13.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.1ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 6]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 6]]
+  Rendered answers/_answer.html.erb (1.2ms)
+  Rendered questions/show.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 14.5ms)
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     5:         <%= answer.content %>
+     6:       </span>
+     7:       <span class="timestamp">
+     8:         Posted by <%= answer.user.name %> <%= time_ago_in_words(answer.created_at) %> ago.
+     9:         <li>
+    10:           Is this answer was helpful for you?
+    11:         </li>
+  app/views/answers/_answer.html.erb:8:in `_app_views_answers__answer_html_erb__607736215308670186_69878823751120'
+  app/views/questions/show.html.erb:53:in `_app_views_questions_show_html_erb__620450011060837455_29641560'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.5ms)
+
+
+Started GET "/questions/3" for 127.0.0.1 at 2016-12-14 13:12:47 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mQuestion Load (0.6ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Senior Tactics Representative' AND "questions"."id" != 3) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 3], ["updated_at", "2016-12-14 09:12:47.482388"], ["id", 3]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 3]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered answers/_answer.html.erb (3.0ms)
+  Rendered questions/show.html.erb within layouts/application (6.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 16.3ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/questions/5" for 127.0.0.1 at 2016-12-14 13:12:50 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "5"]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Legacy Metrics Representative' AND "questions"."id" != 5) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:12:50.940214"], ["id", 5]]
+  [1m[36m (10.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.3ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 5]]
+  [1m[35mAnswer Load (1.0ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered answers/_answer.html.erb (4.3ms)
+  Rendered questions/show.html.erb within layouts/application (12.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 23.2ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/questions/16" for 127.0.0.1 at 2016-12-14 13:12:53 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "16"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'District Identity Specialist' AND "questions"."id" != 16) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:12:53.008827"], ["id", 16]]
+  [1m[36m (50.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 16]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 16]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 16]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered answers/_answer.html.erb (2.8ms)
+  Rendered questions/show.html.erb within layouts/application (9.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 17.6ms | ActiveRecord: 53.0ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:12:55 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:12:55.512619"], ["id", 7]]
+  [1m[36m (22.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.1ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (2.6ms)
+  Rendered questions/show.html.erb within layouts/application (6.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 15.2ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/questions/10" for 127.0.0.1 at 2016-12-14 13:12:57 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mQuestion Load (0.6ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Investor Paradigm Specialist' AND "questions"."id" != 10) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:12:57.241001"], ["id", 10]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.1ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 10]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 10]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 10]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered answers/_answer.html.erb (3.1ms)
+  Rendered questions/show.html.erb within layouts/application (6.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 18.9ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:13:02 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mQuestion Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 3], ["updated_at", "2016-12-14 09:13:02.483896"], ["id", 7]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (4.8ms)
+  Rendered questions/show.html.erb within layouts/application (8.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 19.8ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:13:05 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 4], ["updated_at", "2016-12-14 09:13:05.475281"], ["id", 7]]
+  [1m[36m (16.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.4ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (4.7ms)
+  Rendered questions/show.html.erb within layouts/application (11.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 19.1ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:25:42 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 5], ["updated_at", "2016-12-14 09:25:42.557149"], ["id", 7]]
+  [1m[36m (11.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.7ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (3.5ms)
+  Rendered questions/show.html.erb within layouts/application (17.9ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 17.4ms)
+
+ActionView::Template::Error (undefined method `count' for 5:Fixnum):
+    55:   <% end %>
+    56: </div>
+    57: <div>
+    58:   <h3>This question has been viewed <%= @question.visits_counter.count %> </h3>
+    59: </div>
+    60: 
+    61: <%= link_to 'Edit', edit_question_path(@question) %> |
+  app/views/questions/show.html.erb:58:in `_app_views_questions_show_html_erb__620450011060837455_69878827226600'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.5ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:28:35 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mQuestion Load (0.4ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", "7"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mQuestion Exists (0.2ms)[0m  SELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["visits_counter", 6], ["updated_at", "2016-12-14 09:28:35.624771"], ["id", 7]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36mAnswer Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1[0m  [["question_id", 7]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1  [["question_id", 7]]
+  [1m[36mAnswer Load (0.1ms)[0m  [1mSELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC[0m  [["question_id", 7]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered answers/_answer.html.erb (3.1ms)
+  Rendered questions/show.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 12.4ms)
+
+ActionView::Template::Error (undefined method `count' for 6:Fixnum):
+    55:   <% end %>
+    56: </div>
+    57: <div>
+    58:   <h3>This question has been viewed <%= pluralize(@question.visits_counter.count, "time") %> </h3>
+    59:   <%= @question.visits_counter %>
+    60: </div>
+    61: 
+  app/views/questions/show.html.erb:58:in `_app_views_questions_show_html_erb__620450011060837455_69878826507620'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.1ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:28:48 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.8ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 7], ["updated_at", "2016-12-14 09:28:48.105693"], ["id", 7]]
+  [1m[36m (13.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (4.0ms)
+  Rendered questions/show.html.erb within layouts/application (8.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 18.4ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/questions/7" for 127.0.0.1 at 2016-12-14 13:29:07 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Regional Research Officer' AND "questions"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 8], ["updated_at", "2016-12-14 09:29:07.269249"], ["id", 7]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 7]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 7]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered answers/_answer.html.erb (4.2ms)
+  Rendered questions/show.html.erb within layouts/application (10.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 18.3ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-12-14 13:29:16 +0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (1.0ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/questions/17" for 127.0.0.1 at 2016-12-14 13:29:16 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "17"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Central Accounts Developer' AND "questions"."id" != 17) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 1], ["updated_at", "2016-12-14 09:29:16.812007"], ["id", 17]]
+  [1m[36m (15.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.1ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 17]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 17]]
+  [1m[35mAnswer Load (0.1ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 17]]
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered answers/_answer.html.erb (8.4ms)
+  Rendered questions/show.html.erb within layouts/application (11.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 18.8ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-12-14 13:29:19 +0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.9ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (5.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/questions/10" for 127.0.0.1 at 2016-12-14 13:29:20 +0400
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mQuestion Load (0.3ms)[0m  [1mSELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mQuestion Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "questions" WHERE ("questions"."title" = 'Investor Paradigm Specialist' AND "questions"."id" != 10) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "questions" SET "visits_counter" = $1, "updated_at" = $2 WHERE "questions"."id" = $3  [["visits_counter", 2], ["updated_at", "2016-12-14 09:29:20.321692"], ["id", 10]]
+  [1m[36m (13.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Exists (0.2ms)[0m  SELECT  1 AS one FROM "answers" WHERE "answers"."question_id" = $1 LIMIT 1  [["question_id", 10]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "answers" WHERE "answers"."question_id" = $1[0m  [["question_id", 10]]
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."question_id" = $1  ORDER BY "answers"."created_at" DESC  [["question_id", 10]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered answers/_answer.html.erb (6.5ms)
+  Rendered questions/show.html.erb within layouts/application (10.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 18.3ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2016-12-14 13:29:22 +0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions"[0m
+  Rendered questions/index.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.6ms)
