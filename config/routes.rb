@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
   root to: 'questions#index'
   resources :users
+  get '/results', to: 'results#index'
   resources :questions do
     post '/change_vote_up', to: 'questions#change_vote_up'
-    post 'change_vote_down', to: 'questions#change_vote_down'
+    post '/change_vote_down', to: 'questions#change_vote_down'
     resources :answers do
       post '/change_helpfulness', to: 'answers#change_helpfulness'
     end
