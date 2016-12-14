@@ -13,6 +13,8 @@ class QuestionsController < ApplicationController
     @question = Question.find(params[:id])
     @answers = @question.answers.order created_at: :desc
     @user = @question.user
+    @question.visits_counter += 1
+    @question.save
   end
 
   # GET /questions/new

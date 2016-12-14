@@ -54,6 +54,9 @@
     </ol>
   <% end %>
 </div>
+<div>
+  <h4>This question has been viewed <%= pluralize(@question.visits_counter, "time") %> </h4>
+</div>
 
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <%= link_to 'Destroy', @question, method: :delete, data: { confirm: 'Are you sure?' } %> |
